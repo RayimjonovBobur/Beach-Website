@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+    line-height: 1.6;
+}
+.header{
+    padding-top: 50px;
+    background-image: url('./images/beachshowcase.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+    background-position: center;
+    color: #926239;
+    justify-content: center;
+    align-items: center;
+}
+.section1{
+    background-color: #926239;
+    color: #fff;
+    padding: 20px;
+}
+.section2{
+    background-color: #fff;
+    color: #926239;
+    padding:20px;
+}
+.section3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.btn {
+    background: #fff;
+    background-image: -webkit-linear-gradient(top, #fff, #eba678);
+    background-image: -moz-linear-gradient(top, #fff, #eba678);
+    background-image: -ms-linear-gradient(top, #fff, #eba678);
+    background-image: -o-linear-gradient(top, #fff, #eba678);
+    background-image: linear-gradient(to bottom, #fff, #eba678);
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #926239;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #926239 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #ebaf81;
+    background-image: -webkit-linear-gradient(top, #ebaf81, #926239);
+    background-image: -moz-linear-gradient(top, #ebaf81, #926239);
+    background-image: -ms-linear-gradient(top, #ebaf81, #926239);
+    background-image: -o-linear-gradient(top, #ebaf81, #926239);
+    background-image: linear-gradient(to bottom, #ebaf81, #926239);
+    text-decoration: none;
+  }
+.box1, .box3{
+    background-color: #926239;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.box2{
+    background-color: #fff;
+    color: #926239;
+    padding: 20px;
+    margin: 0;
+}
